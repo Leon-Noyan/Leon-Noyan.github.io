@@ -4,14 +4,57 @@
 
 .navbar-brand, .navbar-expand-lg, .bg-body-tertiary, .container-fluid, .navbar-brand, .navbar-toggler, .collapse, .navbar-collapse, .navbar-nav, .me-auto, .mb-2, .mb-lg-0, .d-flex {
     background-color: #af9e93 !important;
+    height: 8vh;
+
 }
 
 .nav-item {
     background-color: #af9e93;
 }
 
+.nav-link:hover {
+    background-color: #f8efe9;
+    border-radius: 5px;
+}
+
 .btn, .btn-outline-success {
     border: none;
     background-color: #f8efe9;
+}
+
+#front-img {
+    background-image: url('/images/brooke-cagle-8jp-6SjVibM-unsplash.jpg');
+    height: 75vh;
+    min-width: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-content {
+    text-align: center;
+    padding: 20px;
+}
+
+#card {
+    display: grid;
+    grid-area: "";
+    width: 200px;
+    height: 200px;
+    border: black solid 2px;
+    background-color: #af9e93;
+}
+
+h1 {
+    font-family: "Rubik Dirt";
+    color: #74645a;
+}
+
+p {
+   font-family: "Rubik Dirt", sans-serif;
+    color: #74645a;
 }
 
