@@ -1,11 +1,10 @@
 * {
     background-color: #f8efe9;
+    font-family: 'rubik dirt', sans-serif;
 }
 
 .navbar-brand, .navbar-expand-lg, .bg-body-tertiary, .container-fluid, .navbar-brand, .navbar-toggler, .collapse, .navbar-collapse, .navbar-nav, .me-auto, .mb-2, .mb-lg-0, .d-flex {
     background-color: #af9e93 !important;
-    height: 8vh;
-
 }
 
 .nav-item {
@@ -32,6 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 100;
 }
 
 .custom-content {
@@ -39,17 +39,43 @@
     padding: 20px;
 }
 
-#card {
+#container-content {
     display: grid;
-    grid-area: "";
-    width: 200px;
-    height: 200px;
-    border: black solid 2px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+    
+}
+
+.card {
     background-color: #af9e93;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0 , 0.1);
+    color: #f8efe9;
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+    width: auto;
+    overflow: hidden;
+}
+
+#box1 {
+    background-image: url('/images/pablo-merchan-montes-SCbq6uKCyMY-unsplash.jpg');
+
+}
+
+#box2 {
+    background-image: url('/images/nathan-dumlao-2z3MOB3kfJU-unsplash.jpg');
+}
+
+#box3 {
+    background-image: url('/images/alice-pasqual-IfzqfA7n7K0-unsplash.jpg');
 }
 
 h1 {
-    font-family: "Rubik Dirt";
+    font-family: "Rubik Dirt", sans-serif;
     color: #74645a;
 }
 
@@ -58,3 +84,17 @@ p {
     color: #74645a;
 }
 
+.footer {
+    background-color: #af9e93;
+    color: #f8efe9;
+    padding: 3rem 2rem;
+    margin-top: 3rem;
+    text-align: center;
+    display: grid;
+}
+
+.footer-content {
+    grid-template-columns: column;
+    align-items: center;
+    gap: 2rem;
+}
