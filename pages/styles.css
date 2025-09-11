@@ -59,6 +59,7 @@
     height: 30rem;
     width: auto;
     overflow: hidden;
+    cursor: pointer;
 }
 
 #box1 {
