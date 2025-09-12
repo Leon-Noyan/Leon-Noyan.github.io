@@ -28,6 +28,14 @@
     border-radius: 5px;
 }
 
+/* 360px mobile */
+@media (max-width: 360px) {
+    .container-fluid {
+        padding: 0;
+        margin: 0;
+    }
+}
+
 .btn,
 .btn-outline-success {
     border: none;
