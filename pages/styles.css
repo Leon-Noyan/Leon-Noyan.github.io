@@ -28,11 +28,32 @@
     border-radius: 5px;
 }
 
+.navbar-toggler {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.navbar-toggler-icon {
+    background-color: #af9e93 !important;
+}
+
 /* 360px mobile */
 @media (max-width: 360px) {
     .container-fluid {
-        padding: 0;
-        margin: 0;
+        padding: 0.2rem !important;
+        margin: 0.2rem !important;
+    }
+}
+
+@media (max-width: 390px) {
+    .container-fluid {
+        padding: 0.2rem !important;
+        
     }
 }
 
@@ -45,7 +66,7 @@
 #front-img {
     background-image: url('/images/brooke-cagle-8jp-6SjVibM-unsplash.jpg');
     height: 75vh;
-    min-width: 400px;
+    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
