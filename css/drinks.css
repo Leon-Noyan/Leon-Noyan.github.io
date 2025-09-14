@@ -15,10 +15,6 @@ body {
     border-style: double;
 }
 
-#coffee-menu {
-    /* No changes */
-}
-
 .menu-all {
     display: flex;
     flex-direction: column;
@@ -71,19 +67,19 @@ body {
 }
 
 @media (max-width: 750px) {
-  #chocolate-image img {
-    max-width: 140px;
-    height: auto;
-    margin: 0;
-    padding: 0;
-}
+    #chocolate-image img {
+        max-width: 140px;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
 }
 
 @media (max-width: 570px) {
-  #chocolate-image img {
-    max-width: 100px;
-    height: auto;
-    margin: 0;
-    padding: 0;
-}
+    #chocolate-image img {
+        max-width: 100px;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
 }
