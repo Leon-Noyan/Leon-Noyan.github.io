@@ -14,6 +14,7 @@
 
         <!-- Your custom styles are placed here, after Bootstrap, to ensure they override defaults -->
         <link rel="stylesheet" href="/pages/styles.css" />
+        <link rel="stylesheet" href="/css/drinks.css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,7 +27,7 @@
         <!-- The Bootstrap Navbar -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">The Mocha Brew</a>
+                <a class="navbar-brand" href="/pages/index.html">The Mocha Brew</a>
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -88,41 +89,90 @@
                 </div>
 
         </nav>
-          <main>
-            <section id="coffee-menu">
-              <h1>Menu</h1>
-              <ul id="coffee-list">
+<main>
+    <h1 id="drink-title">Drinks Menu</h1>
+    <hr>
+    <section id="container-menu">
+        <section class="menu-all" id="coffee-menu">
+            <h3>Espresso Style Coffee</h3>
+            <ul id="coffee-list">
                 <li>
-                  <div class="menu-item">Expresso</div>
-                  <div class="menu-item-price">3.49$</div>
+                    <div class="menu-item">Expresso</div>
+                    <div class="menu-item-price">3.49$</div>
                 </li>
                 <li>
-                  <div class="menu-item">Latte</div>
-                  <div class="menu-item-price">4.39$</div>
+                    <div class="menu-item">Latte</div>
+                    <div class="menu-item-price">4.39$</div>
                 </li>
                 <li>
-                  <div class="menu-item">Cappuccino</div>
-                  <div class="menu-item-price">5.50$</div>
+                    <div class="menu-item">Cappuccino</div>
+                    <div class="menu-item-price">5.50$</div>
                 </li>
                 <li>
-                  <div class="menu-item">Matcha Latte</div>
-                  <div class="menu-item-price">7.99$</div>
+                    <div class="menu-item">Matcha Latte</div>
+                    <div class="menu-item-price">7.99$</div>
+                </li>
+            </ul>
+        </section>
+        <section class="menu-all" id="coffee-menu2">
+            <h3>American Style Coffee</h3>
+            <ul id="coffee-list2">
+                <li>
+                    <div class="menu-item">Americano</div>
+                    <div class="menu-item-price">5.39$</div>
                 </li>
                 <li>
-                  <div class="menu-item">Americano</div>
-                  <div class="menu-item-price">5.39$</div>
+                    <div class="menu-item">Mocha</div>
+                    <div class="menu-item-price">8.99$</div>
                 </li>
                 <li>
-                  <div class="menu-item">Mocha</div>
-                  <div class="menu-item-price">8.99$</div>
+                    <div class="menu-item">Cortado</div>
+                    <div class="menu-item-price">8.90$</div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="menu-all" id="tea-menu">
+            <h3>Tea Drinks</h3>
+            <ul id="tea-list">
+                <li>
+                    <div class="menu-item">Green Tea</div>
+                    <div class="menu-item-price">3.99$</div>
                 </li>
                 <li>
-                  <div class="menu-item">Cortado</div>
-                  <div class="menu-item-price">8.90$</div>
+                    <div class="menu-item">Black Tea</div>
+                    <div class="menu-item-price">3.99$</div>
                 </li>
-              </ul>
-            </section>
-          </main>
+                <li>
+                    <div class="menu-item">Herbal Tea</div>
+                    <div class="menu-item-price">4.49$</div>
+                </li>
+                <li>
+                    <div class="menu-item">Iced Tea</div>
+                    <div class="menu-item-price">4.99$</div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="menu-all" id="chocolate-menu">
+            <h3>Chocolate Drinks</h3>
+            <ul id="chocolate-list">
+                <li>
+                    <div class="menu-item">Hot Chocolate</div>
+                    <div class="menu-item-price">5.50$</div>
+                </li>
+                <li>
+                    <div class="menu-item">Iced Chocolate</div>
+                    <div class="menu-item-price">6.00$</div>
+                </li>
+            </ul>
+            <div id="chocolate-image">
+                <img src="/images/drinks-images/9635080.png" alt="chocolate drink image">
+            </div>
+        </section>
+    </section>
+</main>
+          <hr id="footer-divider">
         <footer>
             <div class="footer-content">
                 <div class="footer-info">

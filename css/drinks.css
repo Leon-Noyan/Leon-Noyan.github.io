@@ -1,0 +1,89 @@
+body {
+    background-color: #f8efe9;
+}
+
+#container-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 2rem;
+    padding: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    border: 8px #af9e93;
+    border-style: double;
+}
+
+#coffee-menu {
+    /* No changes */
+}
+
+.menu-all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 10px;
+    min-height: 300px;
+}
+
+.menu-all h3 {
+    width: 100%;
+    text-align: center;
+}
+
+#drink-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#footer-divider {
+    margin-bottom: 2rem;
+}
+
+#coffee-list,
+#tea-list,
+#chocolate-list,
+#coffee-list2 {
+    list-style-type: none;
+    padding: 0;
+}
+
+#chocolate-menu {
+    position: relative; /* This is the reference for the absolutely positioned child */
+    min-height: 300px; /* Ensure there's enough space for the content */
+}
+
+#chocolate-image {
+    position: absolute; /* Takes the image out of the normal document flow */
+    bottom: 10px; /* Aligns the image to the bottom of the parent */
+    right: 10px; /* Aligns the image to the right of the parent */
+}
+
+#chocolate-image img {
+    max-width: 170px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 750px) {
+  #chocolate-image img {
+    max-width: 140px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+}
+
+@media (max-width: 570px) {
+  #chocolate-image img {
+    max-width: 100px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+}
