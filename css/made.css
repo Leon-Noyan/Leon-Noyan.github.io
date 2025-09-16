@@ -1,0 +1,22 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#beans h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+#beans p, #journey p, #picking-beans p {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+#hourney ul {
+  list-style-position: inside;
+  padding-left: 0;
+  text-align: center;
+}

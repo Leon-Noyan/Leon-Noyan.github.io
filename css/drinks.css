@@ -32,8 +32,8 @@ body {
 
 #drink-title {
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 #footer-divider {
@@ -64,6 +64,11 @@ body {
     height: auto;
     margin: 0;
     padding: 0;
+}
+
+hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 @media (max-width: 750px) {
