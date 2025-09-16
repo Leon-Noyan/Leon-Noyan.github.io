@@ -1,10 +1,11 @@
+/* Validated */
 * {
     background-color: #f8efe9;
     font-family: 'rubik dirt', sans-serif;
 }
 
 body {
-  background-color: #f8efe9;
+    background-color: #f8efe9;
 }
 
 .navbar-brand,
@@ -17,8 +18,6 @@ body {
 .navbar-collapse,
 .navbar-nav,
 .me-auto,
-.mb-2,
-.mb-lg-0,
 .d-flex {
     background-color: #af9e93 !important;
 }
@@ -60,16 +59,9 @@ body {
     }
 }
 
-.btn,
-.btn-outline-success {
-    border: none;
-    background-color: #f8efe9;
-}
-
 #front-img {
     background-image: url('/images/brooke-cagle-8jp-6SjVibM-unsplash.jpg');
     height: 75vh;
-
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -127,10 +119,6 @@ a {
 
 .links-style:visited {
     color: blueviolet;
-}
-
-.a-color {
-    color: black;
 }
 
 @media (min-width: 980px) {
