@@ -1,3 +1,8 @@
+p:not(footer p), ul li:not(footer ul li) {
+  font-family: 'Courier New', Courier, monospace;
+  color: #000000;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -10,13 +15,33 @@ main {
   margin-top: 1rem;
 }
 
+h2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 2rem;
+}
+
+#picking-beans #journey {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 2rem;
+}
+
+#journey p, #picking-beans p {
+  text-align: left;
+}
+
 #beans p, #journey p, #picking-beans p {
   margin-top: 1rem;
   text-align: center;
 }
 
-#hourney ul {
-  list-style-position: inside;
+#journey ul {
+  list-style-type: none;
   padding-left: 0;
-  text-align: center;
+  text-align: left;
+  margin-left: 2rem;
+  font-weight: bold;
 }
