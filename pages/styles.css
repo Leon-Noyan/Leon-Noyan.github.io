@@ -12,7 +12,6 @@ body {
 .navbar-expand-lg,
 .bg-body-tertiary,
 .container-fluid,
-.navbar-brand,
 .navbar-toggler,
 .collapse,
 .navbar-collapse,
@@ -59,16 +58,21 @@ body {
     }
 }
 
-#front-img {
-    background-image: url('/images/brooke-cagle-8jp-6SjVibM-unsplash.jpg');
+#background-img {
     height: 75vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 100;
+    overflow: hidden;
+    position: relative;
+}
+
+#background-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .custom-content {
@@ -127,21 +131,21 @@ a {
     }
 }
 
-@media screen and (min-width:  1200px) {
+@media screen and (min-width: 1200px) {
     .card {
         height: 25rem;
     }
 }
-
-#box1 {
+/* Image taken from unsplash.com - Pablo Merchan */
+#card1 {
     background-image: url('/images/pablo-merchan-montes-SCbq6uKCyMY-unsplash.jpg');
 }
-
-#box2 {
+/* Image taken from unsplash.com - Nathan Dumlao */
+#card2 {
     background-image: url('/images/nathan-dumlao-2z3MOB3kfJU-unsplash.jpg');
 }
-
-#box3 {
+/* Image taken from unsplash.com - Alice Pasqual */
+#card3 {
     background-image: url('/images/alice-pasqual-IfzqfA7n7K0-unsplash.jpg');
 }
 
@@ -214,6 +218,10 @@ p {
 .footer-info p {
     margin-bottom: 0.5rem;
     padding: 0;
+}
+
+a[target='_blank']::after {
+    content: '↗';
 }
 
 @media screen and (min-width: 380px) {
