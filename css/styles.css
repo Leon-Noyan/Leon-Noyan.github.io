@@ -44,6 +44,14 @@ body {
     background-color: #af9e93 !important;
 }
 
+.dropdown-menu {
+  background-color: #af9e93;
+}
+
+.dropdown-item {
+  background-color: #af9e93;
+}
+
 /* 360px mobile */
 @media screen and (max-width: 360px) {
     .container-fluid {

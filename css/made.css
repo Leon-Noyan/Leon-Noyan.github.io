@@ -1,47 +1,60 @@
-p:not(footer p), ul li:not(footer ul li) {
-  font-family: 'Courier New', Courier, monospace;
-  color: #000000;
+p:not(footer p),
+ul li:not(footer ul li) {
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#beans h1 {
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
+#beans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    #beans, #journey,#picking-beans {
+        align-items: flex-start;
+        margin-left: 0 2rem;
+    }
 }
 
 h2 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin-left: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 2rem;
 }
 
-#picking-beans #journey {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-left: 2rem;
+#picking-beans, #journey {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 1rem;
 }
 
-#journey p, #picking-beans p {
-  text-align: left;
-}
-
-#beans p, #journey p, #picking-beans p {
-  margin-top: 1rem;
-  text-align: center;
+#beans p,
+#journey p,
+#picking-beans p {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    text-align: left;
+    max-width: 90%;
 }
 
 #journey ul {
-  list-style-type: none;
-  padding-left: 0;
-  text-align: left;
-  margin-left: 2rem;
-  font-weight: bold;
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+    margin-left: 2rem;
+    font-weight: bold;
+    max-width: 90%;
 }
