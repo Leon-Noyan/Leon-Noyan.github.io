@@ -25,9 +25,11 @@
     </head>
     <body>
         <!-- The Bootstrap Navbar -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" aria-label="Main menu">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/pages/index.html">The Mocha Brew</a>
+                <a class="navbar-brand" href="/pages/index.html"
+                    >The Mocha Brew</a
+                >
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -53,10 +55,16 @@
                             >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/pages/about.html">About</a>
+                            <a class="nav-link" href="/pages/about.html"
+                                >About</a
+                            >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/pages/food.html#contact-us">Contact</a>
+                            <a
+                                class="nav-link"
+                                href="/pages/index.html#contact-us"
+                                >Contact</a
+                            >
                         </li>
                         <li class="nav-item dropdown">
                             <a
@@ -70,25 +78,37 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a class="dropdown-item" href="#">How it's made</a>
+                                    <a
+                                        class="dropdown-item"
+                                        title="Click to read more about our coffee"
+                                        href="/pages/made.html"
+                                        >How it's made</a
+                                    >
                                 </li>
                                 <li>
-                                    <a class="dropdown-item" href="/pages/drinks.html"
-                                        >Drinks</a
+                                    <a
+                                        class="dropdown-item"
+                                        title="Click to view our drinks menu"
+                                        href="/pages/drinks.html"
+                                        >Drinks menu</a
                                     >
                                 </li>
                                 <li><hr class="dropdown-divider" /></li>
                                 <li>
-                                    <a class="dropdown-item" href="/pages/food.html"
-                                        >Food items</a
+                                    <a
+                                        class="dropdown-item"
+                                        title="Click to view the food menu"
+                                        href="/pages/food.html"
+                                        >Food menu</a
                                     >
                                 </li>
                             </ul>
                         </li>
                     </ul>
                 </div>
-
+            </div>
         </nav>
+        
           <main>
             <h1 id="food-title">Food Menu</h1>
             <hr>
