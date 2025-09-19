@@ -1,6 +1,6 @@
 * {
     background-color: #f8efe9;
-    font-family: 'rubik dirt', sans-serif;
+    font-family: 'Rubik Dirt', sans-serif;
 }
 
 body {
@@ -44,11 +44,11 @@ body {
 }
 
 .dropdown-menu {
-  background-color: #af9e93;
+    background-color: #af9e93;
 }
 
 .dropdown-item {
-  background-color: #af9e93;
+    background-color: #af9e93;
 }
 
 /* 360px mobile */
@@ -156,12 +156,15 @@ a {
 }
 
 h1 {
-    font-family: 'Rubik Dirt', sans-serif;
     color: #74645a;
 }
 
+h2.footer-heading {
+    font-size: 1.25rem !important;
+    margin: 0 0 0.5rem 0;
+}
+
 p {
-    font-family: 'Rubik Dirt', sans-serif;
     color: #74645a;
 }
 
