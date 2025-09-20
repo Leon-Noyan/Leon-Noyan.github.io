@@ -29,7 +29,7 @@ body {
 }
 
 .nav-link[aria-expanded='false'] {
-  background-color: #af9e93;
+    background-color: #af9e93;
 }
 
 .navbar-toggler {
@@ -63,14 +63,7 @@ body {
 }
 /* End of 360px mobile styling */
 
-/* 390px mobile */
-@media screen and (max-width: 390px) {
-    .container-fluid {
-        padding: 0.2rem !important;
-    }
-}
-
-#background-img {
+#background-img img {
     height: 75vh;
     display: flex;
     justify-content: center;
@@ -79,8 +72,6 @@ body {
     overflow: hidden;
     position: relative;
 }
-
-/* End of 390px mobile styling */
 
 #background-img img {
     width: 100%;
