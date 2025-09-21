@@ -162,6 +162,13 @@ h1 {
     color: #74645a;
 }
 
+#cards-title {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1.25rem;
+  color: #74645a;
+}
+
 h2.footer-heading {
     font-size: 1.25rem !important;
     margin: 0 0 0.5rem 0;
